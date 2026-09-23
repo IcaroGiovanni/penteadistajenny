@@ -878,6 +878,27 @@ ul {
     transform: translateY(-10px);
 }
 
+.brides-img-3 {
+    height: 420px;
+    transform: translateY(10px);
+}
+
+.brides-gallery-3 .brides-img-1 {
+    grid-row: 1 / span 2;
+    height: 540px;
+    transform: translateY(25px);
+}
+
+.brides-gallery-3 .brides-img-2 {
+    height: 260px;
+    transform: translateY(-10px);
+}
+
+.brides-gallery-3 .brides-img-3 {
+    height: 260px;
+    transform: translateY(15px);
+}
+
 .brides-img:hover {
     transform: translateY(0) scale(1.03);
     box-shadow: 0 30px 70px rgba(90, 32, 31, 0.2), 0 0 0 1px rgba(90, 32, 31, 0.4);
@@ -3578,7 +3599,20 @@ ul {
     }
     
     .brides-img-1,
-    .brides-img-2 {
+    .brides-img-2,
+    .brides-img-3 {
+        height: 320px;
+        transform: none;
+    }
+    
+    .brides-gallery-3 .brides-img-1 {
+        grid-row: auto;
+        height: 320px;
+        transform: none;
+    }
+    
+    .brides-gallery-3 .brides-img-2,
+    .brides-gallery-3 .brides-img-3 {
         height: 320px;
         transform: none;
     }
@@ -3883,8 +3917,16 @@ ul {
     }
     
     .brides-img-1,
-    .brides-img-2 {
+    .brides-img-2,
+    .brides-img-3 {
         height: 250px;
+    }
+    
+    .brides-gallery-3 .brides-img-1,
+    .brides-gallery-3 .brides-img-2,
+    .brides-gallery-3 .brides-img-3 {
+        height: 250px;
+        transform: none;
     }
     
     .section-choose {
